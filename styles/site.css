@@ -1,0 +1,503 @@
+
+/* designing home-page content*/
+
+/* generating background images/color */
+
+
+
+/*
+.hidden{
+  display: none;
+} */
+
+.imag{
+  background-image: url(../images/apples-pile-far.jpg);
+  margin: 10px;
+}
+
+.background{
+  background-color: chocolate;
+  opacity: 0.8;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* adjusting time and busyness image for centering and visibility*/
+
+.times{
+  text-align: center;
+  list-style-type: none;
+}
+.times li{
+  text-align: center;
+  list-style-type: none;
+}
+.times ul{
+  padding: 0px;
+}
+.busy img{
+  width: 95%;
+  padding-left: 10px;
+}
+
+/* styling FAQ section*/
+
+.faq{
+  padding-bottom: 10px;
+}
+
+
+body{
+  background-color: cornsilk;
+}
+/* nav bar styling for mobile */
+
+nav{
+  background-color: brown;
+  opacity: 0.8;
+  height: 4em;
+
+
+}
+nav a {
+  color: cornsilk;
+  text-decoration: none;
+  padding: 2px;
+  border: 5px double chocolate;
+  font-size: 90%;
+
+}
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 1px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* heading styling */
+h1{
+  text-align: center;
+  font-size: 3em;
+  color: brown;
+}
+h2{
+  text-align: center;
+  color: brown;
+}
+h3{
+  font-size: 1em;
+  text-align: left;
+  padding-left: 10px;
+}
+h4{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* text styling */
+p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.strong{
+  font-size: 1.2em;
+  text-align: center;
+  color: maroon;
+}
+
+
+
+
+
+.strong-banner{
+  font-size: 1.2em;
+  text-align: center;
+  color: maroon;
+  background-color: white;
+  opacity: 0.9;
+  position: sticky;
+  z-index: 2;
+  top:0;
+  border: 2px solid grey;
+
+
+}
+
+.hide-banner{
+  display: flex;
+  align-items: center;
+}
+
+#cash-banner button{
+  margin-right: 100px;
+  font-size: 150%;
+  background-color: maroon;
+  color: white;
+  border:  1px solid crimson;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#cash-banner button:hover{
+  background-color: crimson;
+}
+
+
+
+
+.hidden {
+  display: none !important;
+}
+
+
+em{
+  font-weight: bold;
+}
+
+
+.c-button{
+  display:flex;
+  justify-content: flex-start;
+  margin-left: 250px;
+
+
+  background-color: Transparent;
+  border: none;
+  color: indianred;
+  font-size: 100%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.i-button{
+  display:flex;
+  justify-content: flex-start;
+  margin-left: 255px;
+
+  background-color: Transparent;
+  border: none;
+  color: indianred;
+  font-size: 100%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
+.o-button{
+  display:flex;
+  justify-content: flex-start;
+  margin-left: 335px;
+  margin-bottom: 20px;
+
+  background-color: Transparent;
+  border: none;
+  color: indianred;
+  font-size: 100%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.less-button{
+  margin-bottom: 20px;
+
+  background-color: Transparent;
+  border: none;
+  color: indianred;
+  font-size: 100%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.home-slides{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slides img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.home-slides button{
+  background-color: Transparent;
+  border: none;
+  font-size: 350%;
+  color: maroon;
+  cursor: pointer;
+}
+.home-slides button:hover {
+  /* border: 4px solid  white; */
+  color: crimson;
+}
+
+
+.dot-layout{
+  display: flex;
+  justify-content: center;
+}
+
+.dot-layout button{
+  cursor: pointer;
+}
+
+.dot-layout button:hover{
+  color: crimson;
+}
+
+
+.dots{
+  background-color: Transparent;
+  font-size: 150%;
+  border: none;
+  color: maroon;
+
+}
+
+.dotChange{
+  font-size: 200%;
+  color: crimson;
+}
+
+
+
+/* keeping images center and of consistent width  and correct display*/
+
+img{
+  width: 55%;
+  margin: 0 auto;
+}
+
+.desktop-map{
+  display: none;
+}
+
+.mobile-map{
+  width: 100%;
+  margin-left: 9em;
+}
+
+.topic-img{
+  margin-left: 9em;
+
+}
+
+.enter-img{
+  margin-left: 9em;
+  width: 100%;
+}
+
+/* styling vendors for desktop*/
+
+.topic{
+  border: 5px double chocolate;
+  border-radius:35px;
+  padding: 15px;
+  margin: 10px;
+}
+
+
+/* TCAT Schedule styling*/
+
+.busses strong{
+  font-size: .85em;
+}
+.busses h2{
+  text-align: left;
+  padding-left: 10px;
+  text-decoration: underline;
+}
+.busses h3{
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 700px){
+
+/* fix nav bar to make it larger and centered */
+
+nav{
+text-align: center;
+}
+nav li{
+    padding: 10px;
+}
+
+nav a {
+  padding: 5px;
+}
+
+img{
+  width: 85%;
+
+}
+/* home-page layout for festival schedule */
+
+.background{
+  display: flex;
+  flex-direction: row;
+  margin-left: 2em;
+  margin-right: 2em;
+  opacity: 0.92;
+
+}
+
+.faq{
+  width:35%;
+  background-color: sandybrown;
+  opacity: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 5px double brown;
+}
+.intro{
+  width:65%;
+  opacity: 0.8;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 5px double brown;
+
+}
+
+.hours{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.times li{
+list-style-type: none;
+}
+
+
+
+
+/* dirextions  layout for festival schedule */
+.mobile-map{
+  display: none;
+}
+.desktop-map{
+  display: contents;
+
+}
+.bus-pd{
+  display:flex;
+  flex-direction: row-reverse;
+}
+.direct-park{
+  padding-left:10px;
+  padding-right: 10px;
+  width: 30%;
+  justify-content: center;
+  background-color: burlywood;
+}
+
+.direct-park img{
+    margin-left: 2em;
+}
+
+
+.busses{
+  padding-left:10px;
+  padding-right: 10px;
+  width:70%;border: 5px double chocolate;
+
+}
+
+
+
+
+/* all vendors layout for  entertainment and vendors page creates two rows of vendor information each with two vendors in them*/
+
+.vendor-i p{
+  margin-left: 5em;
+  margin-right: 5em;
+}
+.vendors1{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.vendors2{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.topic{
+  display: flex;
+  flex-direction: row;
+  border: 5px double chocolate;
+  border-radius:35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.topic-details{
+  width: 50%;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.topic-img{
+  width:50%;
+  text-align:center;
+  padding: 5px;
+  margin-left: 0px;
+}
+
+
+/* Entertainment display that utilizes row formatting with text to left to pixture to r5ight*/
+
+.entertainment{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  border: 5px double brown;
+  margin: 20px;
+  border-radius: 35px;
+
+
+}
+.enter-img{
+  width: 50%;
+  margin: 10px;
+
+}
+.enter-details{
+  width:50%;
+  margin: 10px;
+}
+
+#cash-banner p{
+  flex-grow: 1;
+  font-size: 150%;
+  margin-left: 70px;
+  text-align: left;
+}
+
+#cash-banner button{
+margin-right: 200px;
+padding: 10px;
+}
+
+}
